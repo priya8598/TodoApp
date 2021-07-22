@@ -1,0 +1,33 @@
+.todoApp{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+label, button{
+    font-size: 18px;
+    margin: 10px;
+}
+button{
+    cursor: pointer;
+    padding: 4px 10px;
+    background-color: lightseagreen;
+    border: none;
+}
+table{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px;
+}
+td, th, table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.statusOverdue{
+    color: red;
+}
+.clicked{
+    text-decoration: line-through;
+}
